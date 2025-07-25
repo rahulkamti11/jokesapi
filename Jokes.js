@@ -33,7 +33,7 @@ async function call(){
         let audio = new Audio('laugh.mp3');
         audio.play();
         para4.innerText = "(😂🔊 laughter...)";
-    },5500)
+    },5000)
     
 }
 
