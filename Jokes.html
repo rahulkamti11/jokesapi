@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke API</title>
+    
+    <style>
+        body{
+            text-align: center;
+            background: linear-gradient(to right, #2010c9, #1d7fb0, #2010c9);
+        }
+        #btn{
+            color:aliceblue;
+            background:blue;
+            font-size: larger;
+            font-style: bold;
+            height:40px;
+            width:200px;
+            margin: 100px;
+	    border-radius: 1rem;
+	    cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+	
+	#btn:hover{
+	    background-color: #2420ee;
+	}	
+
+        #textArea{
+            background: linear-gradient(to right, #1d7fb0, #4b66fa, #1d7fb0);
+            height: 200px;
+            width: 1000px;
+            border: 2px solid navy;
+	    border-radius: 1rem;
+            margin: 0 auto ;
+        }
+    </style>
+</head>
+<body>
+    <button id= "btn">Get a Joke</button>
+    <div id="textArea">
+        <p id="para1">Your jokes will appear here</p>
+        <p id="para2"></p>
+        <p id="para3"></p>
+        <p id="para4"></p>
+    </div>
+    
+
+
+    <script src="Jokes.js"></script>
+</body>
+</html>
